@@ -1,0 +1,243 @@
+@media screen and (min-width: 768px) {
+  .App {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    background-color: #fefefe;
+    margin-top: 15em;
+    padding: 0 5em;
+  }
+
+  .boxSearch {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .title {
+    color: white;
+    margin-top: -10px;
+  }
+
+  .header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #274447;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .selectOut {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #f3f4f6;
+  }
+
+  .selectOut:hover {
+    background-color: #ccc;
+  }
+
+  .select {
+    margin-right: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    text-align-last: center;
+    border: #333;
+  }
+
+  .searchOut {
+    position: relative;
+    width: 30em;
+    height: 38px;
+    border: 1px solid #ccc;
+    background-color: #f9fafb;
+    border-left: none;
+    overflow: hidden;
+    border-radius: 0 15px 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .search {
+    text-indent: -22em;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border-left: none;
+  }
+
+  .go {
+    width: 50px;
+    height: 50px;
+    background-color: #f9fafb;
+    border: 1px solid #ccc;
+    border-right: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .go:hover {
+    background-color: #ccc;
+  }
+
+  .error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    color: red;
+  }
+
+  .loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2em;
+  }
+
+  .title{
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+    color: #274447e7;
+  }
+
+  .selectOut {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    background-color: #f3f4f6;
+  }
+
+  .selectOut:hover {
+    background-color: #ccc;
+  }
+
+  .select {
+    margin-right: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    text-align-last: center;
+    border: #333;
+  }
+  
+  .boxSearch{
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .searchOut {
+    position: relative;
+    width: 14em;
+    height: 38px;
+    border: 1px solid #ccc;
+    background-color: #f9fafb;
+    border-left: none;
+    overflow: hidden;
+    border-radius: 0 15px 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .search {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border-left: none;
+  }
+
+  .go {
+    width: 50px;
+    height: 50px;
+    background-color: #f9fafb;
+    border: 1px solid #ccc;
+    border-right: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .go:hover {
+    background-color: #ccc;
+  }
+
+  .error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    color: red;
+  }
+
+  .loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+  }
+
+}

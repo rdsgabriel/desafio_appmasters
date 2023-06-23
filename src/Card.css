@@ -1,0 +1,38 @@
+.box{
+  background-color: #274447e7;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+  max-width: 30em; 
+}
+
+.img{
+  width: 90%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .box{
+    background-color: #274447e7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    max-width: 30em; 
+    margin-bottom: 20px;
+    margin: 10px  ;
+  }
+  
+}
